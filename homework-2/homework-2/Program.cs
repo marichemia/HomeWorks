@@ -1,2 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("Mariam Chemia");
+
+Console.WriteLine(Console.ReadLine());
