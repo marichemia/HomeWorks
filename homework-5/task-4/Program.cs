@@ -11,10 +11,12 @@ for (int i = 0; i < hoursPerDays.Length; i++)
 
     if (hrs > 8)
     {
+
         var overtime = hrs - 8;
         payroll = overtime * 15 + 8 * 10;
     }
     else if (i > 4)
+
     {
         payroll += hrs * 2 * 10;
     }
