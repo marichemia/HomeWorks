@@ -1,4 +1,4 @@
-﻿
+//task 2
 
 var str = "";
 while (true)
@@ -29,8 +29,19 @@ static int findPairs(string str)
 
     char[] arr = str.ToCharArray();
     Array.Sort(arr);
+    var count = 0;
 
-    return arr.Where((a, b) => b < arr.Length - 1 && a == arr[b + 1]).Count();
+
+    for (int i = 0; i < arr.Length-1; i++)
+    {
+        if (arr[i] == arr[i+1])
+        {
+            count++;
+            i++;
+        }
+    }
+
+    return count;
 
 
 }
