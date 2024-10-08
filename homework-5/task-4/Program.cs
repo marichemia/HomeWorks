@@ -9,17 +9,20 @@ for (int i = 0; i < hoursPerDays.Length; i++)
 
     var hrs = Convert.ToInt32(Console.ReadLine());
 
-    if ( hrs > 8 )
+    if (hrs > 8)
     {
-        payroll += hrs * 15;
-    } else if (i > 4)
+        var overtime = hrs - 8;
+        payroll = overtime * 15 + 8 * 10;
+    }
+    else if (i > 4)
     {
         payroll += hrs * 2 * 10;
-    } else
+    }
+    else
     {
         payroll += hrs * 10;
     }
-    
+
 }
 
 Console.WriteLine($"Your total: {payroll}");
