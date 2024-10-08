@@ -3,9 +3,9 @@
 
 Console.WriteLine("min number:");
 var min = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("max numbwe:");
+Console.WriteLine("max number:");
 var max = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("enter pow");
+Console.WriteLine("enter n:");
 var pow = Convert.ToInt32(Console.ReadLine());
 
 var list = findNumber(min ,max, pow);
