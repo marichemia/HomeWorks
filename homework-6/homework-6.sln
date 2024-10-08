@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework-6", "homework-6\homework-6.csproj", "{0F03DF10-5E69-4316-B06C-3714B80914BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework-6", "homework-6\homework-6.csproj", "{0F03DF10-5E69-4316-B06C-3714B80914BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-1", "task-1\task-1.csproj", "{6355E595-F151-4CED-BA5E-F5A14C12DA49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task-1", "task-1\task-1.csproj", "{6355E595-F151-4CED-BA5E-F5A14C12DA49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-2", "task-2\task-2.csproj", "{1EE65A3B-2E5F-4278-98D6-AEC96930BCA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task-2", "task-2\task-2.csproj", "{1EE65A3B-2E5F-4278-98D6-AEC96930BCA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-3", "task-3\task-3.csproj", "{F4B2D1CF-40E5-414E-B56E-EDE949C39A60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1EE65A3B-2E5F-4278-98D6-AEC96930BCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE65A3B-2E5F-4278-98D6-AEC96930BCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE65A3B-2E5F-4278-98D6-AEC96930BCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B2D1CF-40E5-414E-B56E-EDE949C39A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B2D1CF-40E5-414E-B56E-EDE949C39A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B2D1CF-40E5-414E-B56E-EDE949C39A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B2D1CF-40E5-414E-B56E-EDE949C39A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
